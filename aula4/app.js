@@ -21,7 +21,9 @@ class Car extends Vehicle {
     constructor() {
         super()
 
-        console.log(this.speed)
+        this.speed = 50
+
+        console.log("moto speed", this.speed)
 
     }
 }
