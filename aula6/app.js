@@ -14,18 +14,18 @@
 // const motorcycle = new Motorcycle()
 
 
-const loadData = async () => {
+const loadData = async (url) => {
  
 
-    const request = await fetch("data.json")
+    const request = await fetch(url)
     const result = await request.json()
 
-    console.log(result)
+    return result
 }
 
 window.onload = async () => {
 
- const data = loadData();
+ const data = await loadData("data.json");
  console.log(data)
 
 }
