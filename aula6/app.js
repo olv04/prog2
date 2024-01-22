@@ -26,6 +26,8 @@ const loadData = async (url) => {
 window.onload = async () => {
 
  const data = await loadData("data.json");
+ const sortedData = data.sort((a, b) => a.type.localCompare3(b.type))
+
  console.log(data)
 
 }
