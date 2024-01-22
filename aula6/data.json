@@ -1,0 +1,27 @@
+[
+   {
+     "tpye": "car",
+     "brand": "ferrari",
+     "speed": 900
+   },
+   {
+     "type": "car",
+     "brand": "fiat",
+     "speed": 50
+   },
+   {
+     "type": "bike",
+     "brand": "kawasaki",
+     "speed": 900
+   },
+   {
+    "type": "bike",
+    "brand": "yamaha",
+    "speed": 600
+   },
+   {
+    "type": "car",
+    "brand": "bugatti",
+    "speed": 450
+   }
+]
