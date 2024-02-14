@@ -1,0 +1,1 @@
+Ao abrir o projeto aparecerá quatro imagens, ao clicar nas imagens aparecerá o autor e o nome da pintura

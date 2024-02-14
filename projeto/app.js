@@ -7,7 +7,14 @@ window.onload = async () =>{
 
     console.log(result)
 
-    const gallery = new Gallery()
+const info = document.querySelector("#info")
+const title = info.querySelector("#title")
+const artist = info.querySelector("#artist")
+
+    const gallery = new Gallery((item) => {
+title.innerText = item.title
+artist.innerText = item.artist
+    })
     result.forEach(element => {
         gallery.addArtPiece(element)
     });
